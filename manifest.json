@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GForm Filler",
+  "version": "1.0.0",
+  "description": "Tự điền và gửi Google Form của bạn: random, random theo tỉ lệ, giá trị cố định hoặc lấy từ list/CSV.",
+  "permissions": ["storage", "unlimitedStorage", "sidePanel", "alarms", "notifications", "scripting"],
+  "host_permissions": ["https://docs.google.com/forms/*"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "GForm Filler",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["lib/generators.js", "lib/parser.js", "lib/csv.js", "lib/payload.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

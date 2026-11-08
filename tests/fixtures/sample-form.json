@@ -1,0 +1,16 @@
+[null,["Mô tả form test",[
+  [1001,"Họ và tên",null,0,[[2001,null,1]]],
+  [1002,"Giới thiệu bản thân",null,1,[[2002,null,0]]],
+  [1003,"Giới tính",null,2,[[2003,[["Nam",null,null,null,0],["Nữ",null,null,null,0],["",null,null,null,1]],1]]],
+  [1004,"Tỉnh thành",null,3,[[2004,[["Hà Nội"],["TP. Hồ Chí Minh"],["Đà Nẵng"]],0]]],
+  [1005,"Sở thích",null,4,[[2005,[["Đọc sách",null,null,null,0],["Thể thao",null,null,null,0],["Âm nhạc",null,null,null,0],["Du lịch",null,null,null,0]],1]]],
+  [1006,"Mức độ hài lòng",null,5,[[2006,[["1"],["2"],["3"],["4"],["5"]],1,["Rất tệ","Rất tốt"]]]],
+  [1100,"Phần 2",null,8,null],
+  [1007,"Đánh giá dịch vụ",null,7,[[2007,[["Kém"],["Tốt"]],1,["Nhân viên"]],[2008,[["Kém"],["Tốt"]],0,["Giá cả"]]]],
+  [1008,"Ngày sinh",null,9,[[2009,null,1,null,null,null,null,[0,1]]]],
+  [1009,"Giờ rảnh",null,10,[[2010,null,0,null,null,null,[0]]]],
+  [1010,"Ảnh minh họa",null,11,null],
+  [1011,"Tải CV",null,13,[[2011,null,0]]],
+  [1012,"Tuổi",null,0,[[2012,null,0,null,[[1,7,[18,99],"Tuổi từ 18-99"]]]]],
+  [1013,"Lịch họp",null,9,[[2013,null,0,null,null,null,null,[1,0]]]]
+],null,null,null,null,null,null,"Form khảo sát test",null,[null,null,null,null,null,null,3]],"/forms","Form khảo sát test",null,null,null,"",null,0,0,null,"",0,"1FAIpQLSexample"]
